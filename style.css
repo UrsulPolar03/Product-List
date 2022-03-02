@@ -1,0 +1,49 @@
+.head{
+    display:flex;
+    padding: 1px;
+}
+
+.buttons{
+    margin: 20px;
+    position: absolute;
+    left: 78%;
+    top: 3%;
+}
+
+.list_container{
+
+    margin-top: -10px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.product{
+    display: inline-block;
+    margin: 15px;
+    width: 30px;
+    max-height: 5em;
+    background-color: gray;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+p {
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+}
+
+.delete-checkbox{
+    display: inline-block;
+    position: relative;
+    right: 400%;
+    top: 11%;
+}
+
+.productDescription{
+    width: 50%;
+}
